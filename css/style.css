@@ -1,0 +1,39 @@
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: rgba(255, 255, 0, 0.775);
+}
+.carousel-item {
+  height: 100vh;
+}
+.navbar {
+  height: 75px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 50%);
+  position: fixed;
+  z-index: 2;
+}
+.sec1 {
+  background-image: url(../images/p4.jfif);
+  height: 100vh;
+  background-size: cover;
+}
+.sec2 {
+  height: 100vh;
+  background-color: #eee;
+}
+.row {
+  padding: 60px;
+}
+.card-body {
+  text-align: center;
+}
+.pp img {
+  border-radius: 50px;
+  filter: grayscale(100%);
+  transition: 0.9s;
+}
+.pp img:hover {
+  filter: grayscale(0%);
+}
